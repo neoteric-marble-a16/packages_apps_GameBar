@@ -10,9 +10,9 @@ on boot
     chown system system /sys/class/power_supply/battery/temp
     chmod 0660 /sys/class/power_supply/battery/temp
     
-    # CPU temperature path (adjust thermal zone number)
-    chown system system /sys/class/thermal/thermal_zone48/temp
-    chmod 0660 /sys/class/thermal/thermal_zone48/temp
+    # CPU temperature path (thermal_zone72 = cpu_therm)
+    chown system system /sys/class/thermal/thermal_zone72/temp
+    chmod 0660 /sys/class/thermal/thermal_zone72/temp
     
     # GPU paths (adjust paths)
     chown system system /sys/class/kgsl/kgsl-3d0/gpu_busy_percentage
@@ -26,6 +26,6 @@ on boot
     chown system system /sys/devices/system/cpu/bus_dcvs/DDR/cur_freq
     chmod 0660 /sys/devices/system/cpu/bus_dcvs/DDR/cur_freq
     
-    # RAM temperature path (adjust thermal zone number)
-    chown system system /sys/class/thermal/thermal_zone27/temp
-    chmod 0660 /sys/class/thermal/thermal_zone27/temp
+    # RAM temperature path (thermal_zone49 = ddr-usr)
+    chown system system /sys/class/thermal/thermal_zone49/temp
+    chmod 0660 /sys/class/thermal/thermal_zone49/temp

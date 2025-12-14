@@ -15,7 +15,7 @@
     
     <!-- RAM Configuration -->
     <string name="config_ram_freq_path" translatable="false">/sys/devices/system/cpu/bus_dcvs/DDR/cur_freq</string>
-    <string name="config_ram_temp_path" translatable="false">/sys/class/thermal/thermal_zone27/temp</string>
+    <string name="config_ram_temp_path" translatable="false">/sys/class/thermal/thermal_zone49/temp</string>
     <integer name="config_ram_temp_divider">1000</integer>
     
     <!-- Proc filesystem paths -->
